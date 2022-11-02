@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #151320;;
+}
+
+h1 {
+    background-image: url("https://media.tenor.com/K_2KCrzfErcAAAAC/pattern-moving.gif");
+    height: 50%;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 100px;
+}
